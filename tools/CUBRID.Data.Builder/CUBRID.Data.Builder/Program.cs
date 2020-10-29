@@ -193,7 +193,7 @@ namespace CUBRID.Data.Builder
 
             GenerateInterop(runtimeDir, "Win64", "runtimes/win-x64/native/cascci64.dll", methods);
             GenerateInterop(runtimeDir, "Win86", "runtimes/win-x86/native/cascci86.dll", methods);
-            GenerateInterop(runtimeDir, "Linux", "runtimes/linux/native/libcascci.so", methods);
+            GenerateInterop(runtimeDir, "Linux", "runtimes/linux-x64/native/libcascci.so", methods);
 
             GenerateRuntimeInterface(runtimeDir, methods);
 

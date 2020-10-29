@@ -6,7 +6,7 @@ namespace CUBRID.Data
 {
     internal static class LinuxInterop
     {
-        private const string dll_name = "runtimes/linux/native/libcascci.so";
+        private const string dll_name = "runtimes/linux-x64/native/libcascci.so";
 
         [DllImport(dll_name, EntryPoint = "cci_get_db_version", CharSet = CharSet.Ansi)]
         public static extern int cci_get_db_version(int con_handle, StringBuilder out_buf, int capacity);
