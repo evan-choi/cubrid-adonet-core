@@ -1,3 +1,5 @@
+<img width="128" src="https://github.com/evan-choi/cubrid-adonet-core/blob/main/icons/logo.png?raw=true">
+
 # CUBRID ADO.NET Core Library
 
 ## Overview
