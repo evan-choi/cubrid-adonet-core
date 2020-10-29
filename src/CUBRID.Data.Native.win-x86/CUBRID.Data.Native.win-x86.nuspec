@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>CUBRID.Data.Native.win-x86</id>
-    <version>10.2.0.0002</version>
+    <version>10.2.0.0002-1</version>
     <title>CUBRID client for Windows (x86)</title>
     <authors>evan-choi</authors>
     <owners>evan-choi</owners>
@@ -10,7 +10,7 @@
     <icon>icon.png</icon>
     <repository type="git" url="https://github.com/evan-choi/cubrid-adonet-core" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>This package complements the CUBRID.Data package and contains the native implementation of CUBRID.Data version 10.2.0.0002 with the Evan's patch for Windows (x86).
+    <description>This package complements the CUBRID.Data package and contains the native implementation of CUBRID.Data version 10.2.0.0002-1 with the Evan's patch for Windows (x86).
 
 This package is only compatible with .NET Core.</description>
     <tags>cubrid ado.net database netcore windows x86</tags>
