@@ -1,0 +1,21 @@
+﻿
+        private static readonly IRuntime _runtime;
+
+        static CciInterface()
+        {
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+            {
+                if (Environment.Is64BitProcess)
+                {
+                    _runtime = new Win64Runtime();
+                }
+                else
+                {
+                    _runtime = new Win86Runtime();
+                }
+            }
+            else
+            {
+                _runtime = new LinuxRuntime();
+            }
+        }

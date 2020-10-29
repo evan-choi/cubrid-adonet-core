@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyName>CUBRID.Data</AssemblyName>
+        <TargetFramework>netstandard2.1</TargetFramework>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Title>CUBRID ADO.NET Core Driver</Title>
+        <Description>CUBRID ADO.NET Core Driver</Description>
+        <Product>CUBRID ADO.NET Core Driver</Product>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Update="Resource.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+    </ItemGroup>
+
+</Project>

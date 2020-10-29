@@ -1,0 +1,13 @@
+﻿using System;
+using System.Runtime.InteropServices;
+using System.Text;
+
+namespace CUBRID.Data
+{
+    internal static class :RUNTIME:Interop
+    {
+        private const string dll_name = ":DLL:";
+
+:BODY:
+    }
+}
