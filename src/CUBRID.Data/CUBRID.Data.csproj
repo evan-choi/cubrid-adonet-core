@@ -3,15 +3,19 @@
     <PropertyGroup>
         <AssemblyName>CUBRID.Data</AssemblyName>
         <TargetFramework>netstandard2.1</TargetFramework>
+        <Version>10.2.0.0002</Version>
     </PropertyGroup>
 
-    <PropertyGroup>
+    <PropertyGroup Label="Nuspec">
         <Title>CUBRID ADO.NET Core Driver</Title>
         <Description>CUBRID ADO.NET Core Driver</Description>
         <Product>CUBRID ADO.NET Core Driver</Product>
+        <PackageIcon>logo.png</PackageIcon>
     </PropertyGroup>
 
     <ItemGroup>
+        <None Include="../../icons/logo.png" Pack="true" PackagePath=""/>
+
         <EmbeddedResource Update="Resource.resx">
             <Generator>ResXFileCodeGenerator</Generator>
             <LastGenOutput>Resource.Designer.cs</LastGenOutput>
